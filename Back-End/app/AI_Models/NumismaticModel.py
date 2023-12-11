@@ -61,6 +61,4 @@ def predict(img, model=resnet50):
         pred = model(img)
     
     return torch.round(torch.sigmoid(pred)).item()
-    
 
-    

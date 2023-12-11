@@ -5,6 +5,7 @@ import React, { useEffect } from 'react';
 import { authToken } from '@/store/store';
 import { redirect } from 'next/navigation';
 import { useAtom } from 'jotai';
+import Link from 'next/link';
 
 export default function Guest() {
 	const [auth, _] = useAtom(authToken);
@@ -22,6 +23,7 @@ export default function Guest() {
 				<p className='font-normal'>
 					Numismatic AI provide authenticity of ancient Bengal coins
 				</p>
+				<p className='font-bold'>Signup for Try</p>
 			</div>
 		</section>
 	);

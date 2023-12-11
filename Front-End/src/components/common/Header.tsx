@@ -78,14 +78,14 @@ export default function Header() {
 									</NaviagationLink>
 								</li>
 
-								<li>
+								{/* <li>
 									<NaviagationLink
 										link='/profile'
 										active={pathname === '/profile'}
 										className='inline-block'>
 										Profile
 									</NaviagationLink>
-								</li>
+								</li> */}
 
 								<li>
 									<button
