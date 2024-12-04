@@ -1,5 +1,3 @@
-<!-- @format -->
-
 # Back-End Service
 
 This brance of folder servers as a back-end service of the application
